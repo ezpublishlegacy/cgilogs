@@ -1,7 +1,7 @@
 <!DOCTYPE TS><TS>
 
 <context>
-    <name>design/admin/logicalogs/list</name>
+    <name>design/admin/cgilogs/list</name>
     <message>
         <source>Logs list (%logs_count)</source>
         <translation>Liste des logs (%logs_count)</translation>
@@ -17,7 +17,7 @@
 </context>
 
 <context>
-    <name>logicalogs/list</name>
+    <name>cgilogs/list</name>
     <message>
         <source>Logs list</source>
         <translation>Liste des logs</translation>

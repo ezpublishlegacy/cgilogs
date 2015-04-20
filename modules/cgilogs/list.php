@@ -2,9 +2,9 @@
 /**
  * File containing the module view
  *
- * @version //autogentag//
- * @package LogicaLogs
- * @copyright Copyright (C) 2012 Logica WebFactory. All rights reserved.
+ * @version 1.0.1-LS
+ * @package CGILogs
+ * @copyright Copyright (C) 2012-2015 CGI Digital Factory. All rights reserved.
  * @license http://www.gnu.org/licenses/gpl-2.0.html GNU General Public License v2.0
  */
 
@@ -38,8 +38,8 @@ $tpl->setVariable( 'logs_count', $logs_count );
 $tpl->setVariable( 'logs', $logs );
 
 $Result = array();
-$Result['content'] = $tpl->fetch( 'design:logicalogs/list.tpl' );
-$Result['path'] = array( array( 'text' => ezpI18n::tr( 'logicalogs/list', 'Logs list' ),
+$Result['content'] = $tpl->fetch( 'design:cgilogs/list.tpl' );
+$Result['path'] = array( array( 'text' => ezpI18n::tr( 'cgilogs/list', 'Logs list' ),
         'url' => false ) );
 
 $contentInfoArray['persistent_variable'] = false;
